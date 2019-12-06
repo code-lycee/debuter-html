@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../style/styles.css" />
+    <title>Ma page 3</title>
+    <script>
+      function getResolution() {
+        alert(
+          "Votre résolution d'écran est: " + screen.width + "x" + screen.height
+        );
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Exemples d'utilisation de javascript</h1>
+
+    <p>
+      <button type="button" onclick="getResolution();">
+        Récupérer la résolution de votre écran
+      </button>
+      <br />
+      <br />
+    </p>
+    <p>
+      Un script peut aussi être écrit dans la partie body de votre page html
+    </p>
+    <h1 id="jour"></h1>
+    <script>
+      var d = new Date();
+      document.getElementById("jour").innerHTML =
+        "nous sommes le " + d.toString();
+    </script>
+
+    <h2>Votre navigateur est</h2>
+
+    <h3 id="navigateur"></h3>
+    <p></p>
+    <h2>la langue de votre navigateur</h2>
+    <h3 id="navigateurLangue"></h3>
+    <script>
+      document.getElementById("navigateur").innerHTML = navigator.userAgent;
+      document.getElementById("navigateurLangue").innerHTML =
+        "le code de votre langue : " + navigator.language;
+    </script>
+<a href="index.html">Revenir à la page d'accueil</a>
+  </body>
+</html>

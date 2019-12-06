@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  color: black;
+  background-color: #40e0d0;
+}
+p {
+  font-size: 1em;
+  color: blue;
+}
+
+h1 {
+  font-size: 2em;
+  color: #e04151;
+}
+
+a:link {
+  /* Liens non visités */
+  color: red;
+}
+a:visited {
+  /* Liens visités */
+  color: blue;
+}
+a:active {
+  /* Liens actifs */
+  color: orangered;
+}
+a:hover {
+  /* Liens survolés */
+  background: yellow;
+}

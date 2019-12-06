@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../style/styles.css" />
+    <title>Ma page 1</title>
+    <style type="text/css">
+      body {
+        background-image: url(img/fond-ecran.jpeg);
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 5px solid Gray;
+        padding: 10px;
+        text-align: center;
+      }
+      th {
+        color: White;
+        background-color: #cdcdcd;
+        font-weight: bold;
+      }
+      .pause {
+        background-color: turquoise;
+        font-style: italic;
+      }
+      .specialite {
+        color: chartreuse;
+        font-style: normal;
+      }
+      .science {
+        background-color: green;
+      }
+      .general {
+        background-color: PowderBlue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Les tableaux</h1>
+    <p>
+      Les tableaux permettent de faire des mise en page assez complexe <br />
+      avec des images dans les cellules
+    </p>
+    <h2>Mon emploi du temps</h2>
+
+    <table>
+      <tr>
+        <th>Heure</th>
+        <th>Lundi</th>
+        <th>Mardi</th>
+      </tr>
+      <tr>
+        <td>8h</td>
+        <td class="general">Français</td>
+        <td class="specialite">IT</td>
+      </tr>
+      <tr>
+        <td>9h</td>
+        <td class="general">Français</td>
+        <td class="specialite">IT</td>
+      </tr>
+      <tr>
+        <td>10h</td>
+        <td class="science">Math</td>
+        <td class="general">Français</td>
+      </tr>
+      <tr>
+        <td>11h</td>
+        <td class="general">Anglais</td>
+        <td>EPS</td>
+      </tr>
+      <tr class="pause">
+        <td>12h</td>
+        <td>Déjeuner</td>
+        <td>Déjeuner</td>
+      </tr>
+      <tr class="pause">
+        <td>13h</td>
+        <td class="science">Physique</td>
+        <td class="specialite">I2D</td>
+      </tr>
+      <tr>
+        <td>14h</td>
+        <td class="science">Physique</td>
+        <td class="specialite">I2D</td>
+      </tr>
+      <tr class="pause">
+        <td>20h</td>
+        <td>Diner</td>
+        <td>Diner</td>
+      </tr>
+    </table>
+  </body>
+</html>
